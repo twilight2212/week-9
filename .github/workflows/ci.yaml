@@ -23,3 +23,4 @@ jobs:
         cp known_hosts ~/.ssh/known_hosts
         cat ~/.ssh/known_hosts
         ssh -v -t -i keyfile ubuntu@ec2-16-171-37-95.eu-north-1.compute.amazonaws.com "sudo bash ~/deploy.sh" 
+
